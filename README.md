@@ -1,6 +1,6 @@
 # cs465-fullstack
 
-#﻿# Architecture
+## Architecture
 In my full stack project, I used a mixture of Express and Node.js for the backend development and HTML/JavaScript for the frontend. The single-page application (SPA) was built using React.js, which allowed for dynamic updates on the page without refreshing it; this provided a seamless user experience that is expected in modern web applications.
 The use of NoSQL MongoDB database in the backend was due to its ability to handle large amounts of unstructured data efficiently. It also provides flexible querying options and horizontal scaling, which are essential for handling dynamic content on the frontend.
 ## Functionality

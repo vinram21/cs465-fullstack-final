@@ -1,2 +1,12 @@
 # cs465-fullstack
- 
+
+#﻿# Architecture
+In my full stack project, I used a mixture of Express and Node.js for the backend development and HTML/JavaScript for the frontend. The single-page application (SPA) was built using React.js, which allowed for dynamic updates on the page without refreshing it. This provided a seamless user experience that is expected in modern web applications.
+The use of NoSQL MongoDB database in the backend was due to its ability to handle large amounts of unstructured data efficiently. It also provides flexible querying options and horizontal scaling, which are essential for handling dynamic content on the frontend.
+## Functionality
+JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and machines to parse. It differs from JavaScript in that it is used to transmit data between the frontend and backend, while JavaScript is used for client-side scripting on the frontend. JSON ties together the frontend and backend development pieces by providing a common language for communication between them.
+For the main UI I made the header and footer highlight the active page using an if statement to set the class to active or selected. This reduces the code size for the pages, with the header and footer being common for all the pages.
+## Testing
+Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. In a full stack application, methods refer to the different functions that can be called on an endpoint, while endpoints are the entry points for requests. Security is crucial in ensuring that sensitive data is protected from unauthorized access or manipulation. To test these aspects effectively, I used RESTclient which is a Firefox extension make HTTP requests, then used MongoDBCompass to make sure that the information was saved correctly.
+## Reflection
+This course has helped me develop a strong foundation in full stack development by exposing me to various technologies and methodologies involved in building modern web applications. The skills that I have learned, developed or mastered include HTML/CSS for frontend design, JavaScript for client-side scripting, Node.js for backend programming, MongoDB for database management, Express for building APIs, and React.js for building SPAs. These skills make me a more marketable candidate in my career field as they are highly sought after in the industry. I prefere using Django and Python rather than Node.js as there is less code required to produce views and with Django Rest Framework you can still use React to provide a SPA front end.
